@@ -1,7 +1,7 @@
 #contours define blue
 import numpy as np
 import cv2
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(1)
 lower_blue=np.array([100,43,43])
 upper_blue=np.array([124,255,255])
 lower_green=np.array([35,43,43])
