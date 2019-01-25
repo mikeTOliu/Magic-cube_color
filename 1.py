@@ -43,6 +43,7 @@ while(True):
     cv2.drawContours(frame,yellow,-1,(0,255,0),3)
     #cv2.imshow('frame',frame)
     #cv2.imshow('blue_or',blue_or)
+    cv2.rectangle(frame, (133, 67), (507, 440), (255, 255, 0), 2)
     cv2.imshow('frame',frame)
     #cv2.imshow('img',img)
     #cv2.imshow("two",two)

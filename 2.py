@@ -9,7 +9,6 @@ cv2.imshow('cammera1',frame)
 cv2.imwrite('./cammera1.jpg',frame)
 Long=len(frame)
 Wite=len(frame[0])
-picture_cut=[9]
 Long_cut=int(Long/3)
 Wite_cut=int(Wite/3)
 frame_cut_1=frame[Long_cut*0:Long_cut,Wite_cut*0:Wite_cut]
